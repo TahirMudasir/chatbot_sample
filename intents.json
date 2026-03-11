@@ -1,0 +1,198 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "hey proxima",
+        "hi there",
+        "how are you"
+      ],
+      "responses": [
+        "Hi! I'm Proxima — your AI-powered academic assistant 😊 How can I help you study today?",
+        "Hello! Ready to tackle your studies? What do you need help with?",
+        "Hey there! I'm here to make your academic life easier. What's up?"
+      ]
+    },
+    {
+      "tag": "academic_qna",
+      "patterns": [
+        "explain",
+        "what is",
+        "define",
+        "how does",
+        "why is",
+        "can you tell me about",
+        "help me understand",
+        "i don't get",
+        "question about",
+        "explain this concept"
+      ],
+      "responses": [
+        "I'd be happy to help with academic Q&A! What specific topic or concept do you need explained?",
+        "Academic Q&A is one of my specialties! What's your question about?",
+        "Tell me your academic question and I'll give you a clear, accurate explanation!"
+      ]
+    },
+    {
+      "tag": "notes_summarization",
+      "patterns": [
+        "summarize my notes",
+        "summarize this",
+        "make summary",
+        "short version",
+        "key points",
+        "condense this",
+        "tl;dr",
+        "main ideas",
+        "quick summary",
+        "notes summary"
+      ],
+      "responses": [
+        "Paste your notes here and I'll create a concise summary with all the key points!",
+        "Notes summarization ready! Share your class notes and I'll make them much shorter and easier to review.",
+        "I can summarize your notes in seconds. Just paste them here!"
+      ]
+    },
+    {
+      "tag": "deadline_alerts",
+      "patterns": [
+        "assignment due",
+        "exam date",
+        "when is",
+        "deadline for",
+        "due date",
+        "submission date",
+        "test schedule",
+        "remind me about",
+        "upcoming deadlines",
+        "when do I need to"
+      ],
+      "responses": [
+        "I can help you track deadlines! Tell me about your assignments and exams with their due dates.",
+        "Never miss a deadline again! Add your assignment and exam dates and I'll remind you.",
+        "Deadline alerts activated! What assignments or exams do you need reminders for?"
+      ]
+    },
+    {
+      "tag": "study_plans",
+      "patterns": [
+        "study plan",
+        "make study schedule",
+        "how should i study",
+        "study schedule",
+        "plan my studies",
+        "create study plan",
+        "help me plan",
+        "study timetable",
+        "exam preparation plan",
+        "weekly study plan"
+      ],
+      "responses": [
+        "Let's create a personalized study plan! Tell me your subjects, exam dates, and available study time.",
+        "I can build custom study plans based on your goals and schedule. What are you preparing for?",
+        "Study plans are my specialty! Share your courses and deadlines for a perfect schedule."
+      ]
+    },
+    {
+      "tag": "progress_tracking",
+      "patterns": [
+        "how am i doing",
+        "track my progress",
+        "progress report",
+        "am I improving",
+        "study progress",
+        "check my stats",
+        "performance tracking",
+        "how far have I come",
+        "progress update",
+        "study analytics"
+      ],
+      "responses": [
+        "I can help track your study progress! Log your study sessions and test scores to see your improvement.",
+        "Progress tracking coming right up! Start logging your study time and quiz scores.",
+        "Let's monitor your academic journey. Share your recent study stats!"
+      ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": [
+        "motivate me",
+        "i'm tired",
+        "feeling lazy",
+        "need motivation",
+        "keep me going",
+        "i want to quit",
+        "losing motivation",
+        "feeling down",
+        "encourage me",
+        "study motivation"
+      ],
+      "responses": [
+        "You've got this! Every page you study brings you closer to your goals. Small steps lead to big wins! 💪",
+        "Remember why you started! Consistency beats perfection. Just 25 minutes now will make you proud later.",
+        "You're stronger than your excuses! One study session at a time. Progress, not perfection! 🚀"
+      ]
+    },
+    {
+      "tag": "features",
+      "patterns": [
+        "what can you do",
+        "your features",
+        "what do you offer",
+        "capabilities",
+        "functions",
+        "help me with",
+        "show me features",
+        "what services",
+        "your abilities"
+      ],
+      "responses": [
+        "I'm Proxima! I can help with:\n• Academic Q&A\n• Notes summarization\n• Deadline alerts\n• Study plans\n• Progress tracking\n• Motivation boosts\nWhat would you like to try first?",
+        "My main features:\n1. Instant academic answers\n2. Smart notes summarization\n3. Deadline reminders\n4. Custom study plans\n5. Progress analytics\n6. Daily motivation\nPick one!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you later",
+        "talk later",
+        "end chat",
+        "close",
+        "exit",
+        "thanks bye",
+        "cya"
+      ],
+      "responses": [
+        "Great chatting with you! Keep studying strong! 📚✨",
+        "See you next time! Don't forget to review your notes today!",
+        "Bye! Stay focused and crush those exams! 💯"
+      ]
+    },
+    {
+      "tag": "register",
+      "patterns": [
+        "sign up",
+        "register",
+        "create account",
+        "get started",
+        "join",
+        "how to register",
+        "account",
+        "signup"
+      ],
+      "responses": [
+        "Ready to get started? Click 'Register' in the top menu or 'Get Started' button to create your free account!",
+        "Just click the 'Register' link in the navigation bar above. It's free and takes 30 seconds!",
+        "Click 'Get Started' button or 'Register' link to create your Proxima account!"
+      ]
+    }
+  ]
+}
